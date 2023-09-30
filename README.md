@@ -20,3 +20,9 @@ next-03
 - The metadata can be specified dynamically, and because duplicate requests are deduplicated you can just do the request again when constructing the metadata.
 - Also, react.suspense can be usefull when you have multiple fetch requests because you can do one fetch and then show that and suspense the rest, make a loading state till the second fetch is finished.
 - The userPosts component is a good example of this, it gets a promise as props and they only show when the promise is resolved.
+
+next-04
+
+- Here we transformed the ssr page, because it had a link with an id, to a SSG page by providing the potential id's to the server. Using the build command, it can be checked whether a page is statically, ssr, or ssg, or client generated.
+- ssg is recommended when possible therefore you do provide these arguments when possible.
+- It also includes incremental static regeneration, so the data is first loaded and then updated on the server with a defined timer and then the statically served pages change.
