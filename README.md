@@ -9,3 +9,5 @@ next-02:
 - Create an about page and a layout file specific to both the home and the about page.
 - create links to go back and forth to the about page.
 - css styles can be created global, per page, or per layout meaning page and children. So the same file and styles name at multiple levels is possible.
+- next has a cool automatic function for loading states, that applies react suspense under the hood.
+- You can also make cool local error states, so that an error does not crash the rest of the application.
