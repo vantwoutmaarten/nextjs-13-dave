@@ -13,7 +13,7 @@ export default async function getWikiResults(searchTerm: string) {
     origin: "*",
   });
   const response = await fetch(
-    `https://en.wikipedia.org/w/api.php?${searchParams.toString()}`
+    `https://en.wikipedia.org/w/api.php?${searchParams}`
   );
 
   return response.json();
