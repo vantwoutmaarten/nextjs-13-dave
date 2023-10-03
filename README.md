@@ -32,3 +32,8 @@ next-05
 - In this project we are combining client and server side rendering, we are doing client side searching. So created a client side search bar.
 - We are creating a search component that shows uses the wikipedia. This has form when we sumbit, we dynamically create a new page with the search results.
   This has to be SSR component, because dont know beforehand what the url with the search parameter will be.
+
+next-06
+-adding tailwind again and add a tailwind typography plugin that can style md files without applying classes.
+
+- showing a profile picture, and using some font-awesome icons.
