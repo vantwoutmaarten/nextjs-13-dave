@@ -1,3 +1,5 @@
+import Posts from "./components/Posts";
+
 export default function Home() {
   return (
     <main className="px-6 mx-auto">
@@ -7,6 +9,7 @@ export default function Home() {
           Im <span className="font-bold">Maarten</span>
         </span>
       </p>
+      <Posts />
     </main>
   );
 }
