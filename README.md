@@ -42,3 +42,16 @@ next-07
 
 - In this project, Im exploring route handling. Route handlers in next js are really cool. You have api functionalities inside next, and you can use hidden api keys to do requests and then show the results in your app without hosting a seperate backend.
 - Just making some simple routes, handling requests and returning responses.
+- Create a simple form that will submit and the post to the feedback route.
+
+-next-08
+
+- Building a rest api in nextjs, making the api routes in tha api folder.
+- It is file based routing, so each file has one main handler, and then in that handler you can call different functions based on what request method is called. So you can have a get, post, put, delete, etc. function in one file, but they have to be called throught the main handler.
+- using all the routes, and making a simple crud app. The data is not actually updated, but all the routes are returning working responses.
+- also have a dynamic route based on the id.
+
+- next-09
+- In this code, we will work on implementing middleware. First, for functions that are called before the request is recieved by the api. We will use it for logging, authentication and also to allow cors. Then, also for the way back by modifying the response or redirecting it.
+- we use a middleware config to determine by which routes the middleware is used.
+- Also using a limiter package that limits the amount of requests that can be made to the api and implementt it.
