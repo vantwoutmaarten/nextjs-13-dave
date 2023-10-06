@@ -37,3 +37,8 @@ next-06
 -adding tailwind again and add a tailwind typography plugin that can style md files without applying classes.
 
 - showing a profile picture, and using some font-awesome icons.
+
+next-07
+
+- In this project, Im exploring route handling. Route handlers in next js are really cool. You have api functionalities inside next, and you can use hidden api keys to do requests and then show the results in your app without hosting a seperate backend.
+- Just making some simple routes, handling requests and returning responses.
